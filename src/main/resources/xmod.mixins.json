@@ -6,7 +6,11 @@
 		"Entity.CreeperEntityMixin",
 		"Enchantment.InfinityEnchantmentMixin",
 		"Enchantment.DamageEnchantmentMixin",
-		"Enchantment.BowItemMixin"
+		"Enchantment.BowItemMixin",
+		"Client.IntegratedServerLoaderMixin",
+		"Client.MinecraftClientMixin",
+		"Item.Elytra.ElytraItemMixin",
+		"Item.Elytra.ItemMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
