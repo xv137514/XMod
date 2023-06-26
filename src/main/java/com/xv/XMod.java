@@ -1,5 +1,6 @@
 package com.xv;
 
+import com.xv.AutoSwitchElytraUtil.AutoSwitchElytraUtil;
 import com.xv.KeyF5andF6.KeyF5andF6;
 import com.xv.WaterWalkingHorse.WaterWalkingHorse;
 import net.fabricmc.api.ClientModInitializer;
@@ -13,6 +14,7 @@ public class XMod implements ClientModInitializer, ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		new AutoSwitchElytraUtil();
 		new KeyF5andF6();
 		new WaterWalkingHorse();
 

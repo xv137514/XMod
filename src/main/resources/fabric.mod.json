@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "xmod",
-	"version": "1.0",
+	"version": "1.1",
 	"name": "XMod",
 	"description": "一个fabric minecraft模组，修改了一些游戏特性并增加了一些好用的功能",
 	"authors": [
