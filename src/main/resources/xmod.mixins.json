@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.xv.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"Entity.CreeperEntityMixin",
+		"Enchantment.InfinityEnchantmentMixin",
+		"Enchantment.DamageEnchantmentMixin",
+		"Enchantment.BowItemMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

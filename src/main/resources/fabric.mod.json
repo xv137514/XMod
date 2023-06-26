@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "xmod",
+	"version": "1.0",
+	"name": "XMod",
+	"description": "一个fabric minecraft模组，修改了一些游戏特性并增加了一些好用的功能",
+	"authors": [
+		"xv"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/xmod",
+		"sources": "https://github.com/xv137514/XMod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/xmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "com.xv.XMod"
+		],
+		"fabric-datagen": [
+			"com.xv.XMod"
+		]
+	},
+	"mixins": [
+		"xmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
